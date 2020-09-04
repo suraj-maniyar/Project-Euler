@@ -1,6 +1,7 @@
 
 import timeit
 
+# Sieve of Eratosthenes : returns list of all primes less than max_val
 def sieve(max_val=1000):
     visited = set()
     count = 0
